@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav a {
+    color: #fff;
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .service {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.2);
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  label, input, textarea {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="submit"] {
+    align-self: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #service {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
